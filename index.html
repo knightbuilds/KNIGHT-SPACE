@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KNIGHT SPACE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header>
+      <h1>KNIGHT SPACE</h1>
+      <p>Move with ← → and shoot with SPACE</p>
+      <p class="score-line">Score: <span id="score">0</span></p>
+    </header>
+
+    <canvas id="game" width="400" height="550"
+      aria-label="Space shooter game"></canvas>
+
+    <p class="help">Destroy the enemy ships and avoid collisions.</p>
+    <p class="restart-help">Press ENTER to restart after game over.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
